@@ -18,7 +18,7 @@
 module com.github.kokorin.jaffree {
     requires java.base;
     requires java.desktop;
-    requires org.slf4j;
+    requires static org.slf4j;
     requires com.grack.nanojson;
 
     exports com.github.kokorin.jaffree;
